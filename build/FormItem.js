@@ -20,6 +20,10 @@ var _beeLabel = require('bee-label');
 
 var _beeLabel2 = _interopRequireDefault(_beeLabel);
 
+var _beeTooltip = require('bee-tooltip');
+
+var _beeTooltip2 = _interopRequireDefault(_beeTooltip);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
@@ -54,25 +58,36 @@ var FormItem = function (_Component) {
         return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.getChild = function () {
             var _this$props = _this.props,
                 label = _this$props.label,
-                children = _this$props.children;
+                children = _this$props.children,
+                required = _this$props.required,
+                clsfix = _this$props.clsfix,
+                errorMsg = _this$props.errorMsg;
 
             var ary = [];
+            ary.push(_react2["default"].createElement(
+                _beeLabel2["default"],
+                null,
+                required ? _react2["default"].createElement(
+                    'span',
+                    { className: clsfix + '-mast' },
+                    '*'
+                ) : '',
+                label
+            ));
             if (children.length > 1) {
-                ary.push(_react2["default"].createElement(
-                    _beeLabel2["default"],
-                    null,
-                    label
-                ));
                 _react2["default"].Children.map(children, function (child) {
-                    ary.push(child);
+                    errorMsg ? ary.push(_react2["default"].createElement(
+                        _beeTooltip2["default"],
+                        { inverse: true, overlay: errorMsg, placement: 'top', className: clsfix + '-error-msg' },
+                        child
+                    )) : ary.push(child);
                 });
             } else {
-                ary.push(_react2["default"].createElement(
-                    _beeLabel2["default"],
-                    null,
-                    label
-                ));
-                ary.push(children);
+                errorMsg ? ary.push(_react2["default"].createElement(
+                    _beeTooltip2["default"],
+                    { inverse: true, overlay: errorMsg, placement: 'top', className: clsfix + '-error-msg' },
+                    children
+                )) : ary.push(children);
             }
             return ary;
         }, _temp), _possibleConstructorReturn(_this, _ret);
@@ -83,11 +98,15 @@ var FormItem = function (_Component) {
             clsfix = _props.clsfix,
             children = _props.children,
             className = _props.className,
-            other = _objectWithoutProperties(_props, ['clsfix', 'children', 'className']);
+            errorMsg = _props.errorMsg,
+            other = _objectWithoutProperties(_props, ['clsfix', 'children', 'className', 'errorMsg']);
 
+        var clsses = clsfix + '-item';
+        if (className) clsses += ' ' + className;
+        if (errorMsg) clsses += ' error';
         return _react2["default"].createElement(
             _beeLayout.Col,
-            _extends({ className: className ? clsfix + '-item ' + className : clsfix + '-item' }, other),
+            _extends({ className: clsses }, other),
             this.getChild()
         );
     };
