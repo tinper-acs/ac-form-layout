@@ -6,7 +6,10 @@ import Tooltip from 'bee-tooltip'
 
 
 const propTypes = {
-    clsfix:PropTypes.string
+    clsfix:PropTypes.string,
+    lable:PropTypes.string,
+    required:PropTypes.bool,
+    errorMsg:PropTypes.node
 };
 const defaultProps = {
     clsfix:'ac-form-layout'

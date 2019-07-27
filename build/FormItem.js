@@ -37,7 +37,10 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
 
 var propTypes = {
-    clsfix: _propTypes2["default"].string
+    clsfix: _propTypes2["default"].string,
+    lable: _propTypes2["default"].string,
+    required: _propTypes2["default"].bool,
+    errorMsg: _propTypes2["default"].node
 };
 var defaultProps = {
     clsfix: 'ac-form-layout'
