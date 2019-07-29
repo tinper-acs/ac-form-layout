@@ -1,3 +1,13 @@
+<a name="0.0.5"></a>
+## [0.0.5](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.4...v0.0.5) (2019-07-29)
+
+
+### Features
+
+* **ac-form-layout:** disabled api ([6b19266](https://github.com/tinper-bee/ac-form-layout/commit/6b19266))
+
+
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.3...v0.0.4) (2019-07-27)
 
