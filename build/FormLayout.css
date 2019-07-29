@@ -40,3 +40,16 @@
   color: #f53c32;
   border: none !important;
   box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3); }
+
+.ac-form-layout.disabled {
+  pointer-events: none; }
+  .ac-form-layout.disabled .rc-tree-select-selection, .ac-form-layout.disabled .rc-tree-select-selection:hover, .ac-form-layout.disabled .u-form-control {
+    background: none;
+    border: none;
+    color: #111111;
+    box-shadow: none; }
+  .ac-form-layout.disabled .u-select .u-select-selection {
+    background: none;
+    border: none; }
+  .ac-form-layout.disabled .u-select-arrow, .ac-form-layout.disabled .rc-tree-select-menu-icon, .ac-form-layout.disabled .u-input-group-btn {
+    display: none; }

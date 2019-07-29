@@ -56,4 +56,21 @@
             box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
         }
     }
+    &.disabled{
+        pointer-events: none;
+        .rc-tree-select-selection, .rc-tree-select-selection:hover, .u-form-control{
+            background: none;
+            border: none;
+            color: #111111;
+            box-shadow: none;
+        }
+        .u-select .u-select-selection {
+            background: none;
+            border: none;
+        }
+        .u-select-arrow, .rc-tree-select-menu-icon, .u-input-group-btn{
+            display: none;
+        }
+    }
 }
+
