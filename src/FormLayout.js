@@ -14,7 +14,7 @@ class FormLayout extends Component {
         let { clsfix,children,disabled,className } = this.props;
         let clsses = clsfix;
         if(className) clsses+=' '+className;
-        if(disabled)clsses+=`${clsfix} disabled`;
+        if(disabled) clsses+=` disabled`;
         return(
             <div className={clsses}>
                 {children}

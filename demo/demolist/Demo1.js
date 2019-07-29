@@ -49,7 +49,7 @@ class Demo1 extends Component {
         const { getFieldProps, getFieldError } = this.props.form;
         return (
             <div>
-                <FormLayout >
+                <FormLayout disabled>
                     <FormRow>
                         <FormItem label="姓名" required={true} {...layout} errorMsg={getFieldError('username')}>
                             <FormControl placeholder="请输入用户名"

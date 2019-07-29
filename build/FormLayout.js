@@ -48,7 +48,7 @@ var FormLayout = function (_Component) {
 
         var clsses = clsfix;
         if (className) clsses += ' ' + className;
-        if (disabled) clsses += clsfix + ' disabled';
+        if (disabled) clsses += ' disabled';
         return _react2["default"].createElement(
             'div',
             { className: clsses },
