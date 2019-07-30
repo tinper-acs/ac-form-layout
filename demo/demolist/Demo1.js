@@ -49,12 +49,22 @@ class Demo1 extends Component {
         const { getFieldProps, getFieldError } = this.props.form;
         return (
             <div>
-                <FormLayout disabled>
+                <FormLayout >
                     <FormRow>
                         <FormItem label="姓名" required={true} {...layout} errorMsg={getFieldError('username')}>
-                            <FormControl placeholder="请输入用户名"
+                            <FormControl placeholder="请输入姓名"
                                 {...getFieldProps('username', {
                                     validateTrigger: 'onBlur',
+                                    rules: [{
+                                        required: true, message: '请输入姓名',
+                                    }],
+                                }) }
+                            />
+                        </FormItem>
+                        <FormItem label="姓名" required={true} {...layout} errorMsg={getFieldError('username1')}>
+                            <FormControl placeholder="请输入用户名"
+                                {...getFieldProps('username1', {
+                                    validateTrigger: 'onChange',
                                     rules: [{
                                         required: true, message: '请输入用户名',
                                     }],
@@ -63,6 +73,7 @@ class Demo1 extends Component {
                         </FormItem>
                         <FormItem label="采购日期" required={true} {...layout} errorMsg={getFieldError('time')}>
                             <DatePicker
+                            format="YYYY-MM-DD"
                                 {
                                 ...getFieldProps('time', {
                                     rules: [{
@@ -93,8 +104,15 @@ class Demo1 extends Component {
                                 }
                             </Select>
                         </FormItem>
-                        <FormItem label="姓名" required={true} {...layout}>
-                            <FormControl placeholder="请输入用户名"/>
+                        <FormItem label="用户名" required={true} {...layout} errorMsg={getFieldError('yonghuming')}>
+                            <FormControl placeholder="请输入用户名"
+                                 {...getFieldProps('yonghuming', {
+                                    validateTrigger: 'onBlur',
+                                    rules: [{
+                                        required: true, message: '请输入用户名',
+                                    }],
+                                }) }
+                            />
                         </FormItem>
                     </FormRow>
                     <FormRow>
