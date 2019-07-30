@@ -1,3 +1,13 @@
+<a name="0.0.8"></a>
+## [0.0.8](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.7...v0.0.8) (2019-07-30)
+
+
+### Features
+
+* **ac-form-layout:** 错误提示 ([ac71764](https://github.com/tinper-bee/ac-form-layout/commit/ac71764))
+
+
+
 <a name="0.0.7"></a>
 ## [0.0.7](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.6...v0.0.7) (2019-07-29)
 
