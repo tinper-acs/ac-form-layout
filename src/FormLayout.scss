@@ -16,8 +16,17 @@
         .u-label+* {
             width: calc(100% - 140px);
             display: inline-block;
+            height: 32px;
         }
-
+        .container-refer{//mdf参照
+            .ant-search-input-wrapper{
+                vertical-align: middle;
+                height: 32px;
+                .ant-input{
+                    border: 1px solid #a5adba;
+                }
+            }
+        }
         &.error {
 
             .u-form-control,
@@ -132,6 +141,17 @@
         .rc-tree-select-menu-icon,
         .u-input-group-btn {
             display: none;
+        }
+        .container-refer{//mdf参照
+            .ant-search-input-wrapper{
+                .ant-input{
+                    border: none;
+                    background: none;
+                }
+                .ant-input-suffix{
+                    display: none;
+                }
+            }
         }
     }
 }
