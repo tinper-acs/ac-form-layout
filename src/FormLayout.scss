@@ -39,6 +39,13 @@
             .u-input-number.u-input-group.simple .u-input-group-btn .icon-group .reduce {
                 color: #f53c32;
             }
+            .container-refer{//mdf参照
+                .ant-search-input-wrapper{
+                    .ant-input{
+                        border-color: #f53c32;
+                    }
+                }
+            }
         }
 
         .datepicker-input-group .u-form-control {
