@@ -6,11 +6,15 @@
     &-item {
         padding: 0;
         margin-bottom: 8px;
-
+        input,.u-select .u-select-selection{
+          border-color: #d5d6d9;
+        }
         .u-label {
             display: inline-block;
             width: 140px;
             text-align: right;
+            font-size: 13px;
+            color: #111111;
         }
 
         .u-label+* {
@@ -23,7 +27,7 @@
                 vertical-align: middle;
                 height: 32px;
                 .ant-input{
-                    border: 1px solid #a5adba;
+                    border: 1px solid #d5d6d9;
                 }
             }
         }
@@ -111,6 +115,22 @@
             border-right: 1px solid #a5adba;
             border-bottom: 1px solid #a5adba;
         }
+
+
+        //禁用状态
+        .u-form-control[disabled]{
+          background: #f3f3f3;
+          border-color: #e0e0e0;
+          color: #2B344B!important;
+        }
+        .u-select-disabled{
+          .u-select-selection{
+            background: #f3f3f3;
+            border-color: #e0e0e0;
+            color: #2B344B;
+          }
+          
+        }
     }
 
     &-mast {
@@ -120,13 +140,6 @@
         right: 2px;
     }
 
-    // &-error-msg.inverse.u-tooltip{
-    //     .tooltip-inner{
-    //         color: #f53c32;
-    //         border: none!important;
-    //         box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
-    //     }
-    // }
     &.disabled {
         pointer-events: none;
 
@@ -162,3 +175,4 @@
         }
     }
 }
+  

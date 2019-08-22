@@ -4,10 +4,14 @@
 .ac-form-layout-item {
   padding: 0;
   margin-bottom: 8px; }
+  .ac-form-layout-item input, .ac-form-layout-item .u-select .u-select-selection {
+    border-color: #d5d6d9; }
   .ac-form-layout-item .u-label {
     display: inline-block;
     width: 140px;
-    text-align: right; }
+    text-align: right;
+    font-size: 13px;
+    color: #111111; }
   .ac-form-layout-item .u-label + * {
     width: calc(100% - 140px);
     display: inline-block;
@@ -16,7 +20,7 @@
     vertical-align: middle;
     height: 32px; }
     .ac-form-layout-item .container-refer .ant-search-input-wrapper .ant-input {
-      border: 1px solid #a5adba; }
+      border: 1px solid #d5d6d9; }
   .ac-form-layout-item.error .u-form-control,
   .ac-form-layout-item.error .u-input-number,
   .ac-form-layout-item.error .u-input-number.u-input-group.simple .u-input-group-btn {
@@ -71,6 +75,14 @@
     transform: rotate(45deg);
     border-right: 1px solid #a5adba;
     border-bottom: 1px solid #a5adba; }
+  .ac-form-layout-item .u-form-control[disabled] {
+    background: #f3f3f3;
+    border-color: #e0e0e0;
+    color: #2B344B !important; }
+  .ac-form-layout-item .u-select-disabled .u-select-selection {
+    background: #f3f3f3;
+    border-color: #e0e0e0;
+    color: #2B344B; }
 
 .ac-form-layout-mast {
   position: relative;
