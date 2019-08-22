@@ -6,7 +6,7 @@
     &-item {
         padding: 0;
         margin-bottom: 8px;
-        input,.u-select .u-select-selection{
+        input,.u-select .u-select-selection,.u-input-number{
           border-color: #d5d6d9;
         }
         .u-label {
@@ -112,8 +112,8 @@
             content: " ";
             left: calc(50% - 5px);
             transform: rotate(45deg);
-            border-right: 1px solid #a5adba;
-            border-bottom: 1px solid #a5adba;
+            border-right: 1px solid #d5d6d9;
+            border-bottom: 1px solid #d5d6d9;
         }
 
 

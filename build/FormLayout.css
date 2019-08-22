@@ -4,7 +4,7 @@
 .ac-form-layout-item {
   padding: 0;
   margin-bottom: 8px; }
-  .ac-form-layout-item input, .ac-form-layout-item .u-select .u-select-selection {
+  .ac-form-layout-item input, .ac-form-layout-item .u-select .u-select-selection, .ac-form-layout-item .u-input-number {
     border-color: #d5d6d9; }
   .ac-form-layout-item .u-label {
     display: inline-block;
@@ -73,8 +73,8 @@
     content: " ";
     left: calc(50% - 5px);
     transform: rotate(45deg);
-    border-right: 1px solid #a5adba;
-    border-bottom: 1px solid #a5adba; }
+    border-right: 1px solid #d5d6d9;
+    border-bottom: 1px solid #d5d6d9; }
   .ac-form-layout-item .u-form-control[disabled] {
     background: #f3f3f3;
     border-color: #e0e0e0;
