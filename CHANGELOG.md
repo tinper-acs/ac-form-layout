@@ -1,3 +1,13 @@
+<a name="0.0.12"></a>
+## [0.0.12](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.11...v0.0.12) (2019-08-22)
+
+
+### Features
+
+* **ac-form-layout:** 字体颜色边框修改 ([f2ae209](https://github.com/tinper-bee/ac-form-layout/commit/f2ae209))
+
+
+
 <a name="0.0.11"></a>
 ## [0.0.11](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.10...v0.0.11) (2019-08-16)
 
