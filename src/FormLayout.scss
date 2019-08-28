@@ -202,5 +202,11 @@
                 }
             }
         }
+        .u-input-number{
+            border: none;
+            .u-input-group-addon{
+                display: none;
+            }
+        }
     }
 }

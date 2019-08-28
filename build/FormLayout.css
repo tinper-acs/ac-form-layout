@@ -120,3 +120,7 @@
     background: none; }
   .ac-form-layout.disabled .container-refer .ant-search-input-wrapper .ant-input-suffix {
     display: none; }
+  .ac-form-layout.disabled .u-input-number {
+    border: none; }
+    .ac-form-layout.disabled .u-input-number .u-input-group-addon {
+      display: none; }
