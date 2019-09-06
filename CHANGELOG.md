@@ -1,3 +1,13 @@
+<a name="0.0.16"></a>
+## [0.0.16](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.15...v0.0.16) (2019-09-06)
+
+
+### Features
+
+* **ac-form-layout:** disabled状态隐藏错误提示 ([a057108](https://github.com/tinper-bee/ac-form-layout/commit/a057108))
+
+
+
 <a name="0.0.15"></a>
 ## [0.0.15](https://github.com/tinper-bee/ac-form-layout/compare/v0.0.14...v0.0.15) (2019-08-28)
 
