@@ -101,6 +101,8 @@
 
 .ac-form-layout.disabled {
   pointer-events: none; }
+  .ac-form-layout.disabled .ac-form-layout-item-error-msg {
+    display: none; }
   .ac-form-layout.disabled .rc-tree-select-selection,
   .ac-form-layout.disabled .rc-tree-select-selection:hover,
   .ac-form-layout.disabled .u-form-control {
