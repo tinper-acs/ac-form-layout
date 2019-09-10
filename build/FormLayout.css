@@ -113,6 +113,10 @@
   .ac-form-layout.disabled .u-select .u-select-selection {
     background: none;
     border: none; }
+    .ac-form-layout.disabled .u-select .u-select-selection.u-select-selection--multiple .u-select-selection-choice {
+      background: none;
+      color: #111111;
+      padding: 0; }
   .ac-form-layout.disabled .u-select-arrow,
   .ac-form-layout.disabled .rc-tree-select-menu-icon,
   .ac-form-layout.disabled .u-input-group-btn {

@@ -182,6 +182,13 @@
         .u-select .u-select-selection {
             background: none;
             border: none;
+            &.u-select-selection--multiple{
+                .u-select-selection-choice{
+                    background: none;
+                    color: #111111;
+                    padding: 0;
+                }
+            }
         }
 
         .u-select-arrow,
