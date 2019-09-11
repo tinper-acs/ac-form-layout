@@ -123,7 +123,8 @@
     display: none; }
   .ac-form-layout.disabled .container-refer .ant-search-input-wrapper .ant-input {
     border: none;
-    background: none; }
+    background: none;
+    pointer-events: none; }
   .ac-form-layout.disabled .container-refer .ant-search-input-wrapper .ant-input-suffix {
     display: none; }
   .ac-form-layout.disabled .u-input-number {
