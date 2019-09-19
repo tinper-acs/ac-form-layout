@@ -127,6 +127,17 @@
     pointer-events: none; }
   .ac-form-layout.disabled .container-refer .ant-search-input-wrapper .ant-input-suffix {
     display: none; }
+  .ac-form-layout.disabled .container-refer .refer-wrapper {
+    pointer-events: none; }
+    .ac-form-layout.disabled .container-refer .refer-wrapper .refer-wrapper-content {
+      border: none;
+      background: none; }
+      .ac-form-layout.disabled .container-refer .refer-wrapper .refer-wrapper-content > ul {
+        background: none; }
+        .ac-form-layout.disabled .container-refer .refer-wrapper .refer-wrapper-content > ul .selected-item span {
+          border: none; }
+  .ac-form-layout.disabled .container-refer .refer-canzhao-wrapper {
+    display: none; }
   .ac-form-layout.disabled .u-input-number {
     border: none; }
     .ac-form-layout.disabled .u-input-number .u-input-group-addon {

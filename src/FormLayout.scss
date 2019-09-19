@@ -198,7 +198,6 @@
         }
 
         .container-refer {
-
             //mdf参照
             .ant-search-input-wrapper {
                 .ant-input {
@@ -211,6 +210,26 @@
                     display: none;
                 }
             }
+            .refer-wrapper{
+                pointer-events: none;
+                .refer-wrapper-content{
+                    border: none;
+                    background: none;
+                    >ul{
+                        background: none;
+                        .selected-item{
+                            span{
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .refer-canzhao-wrapper{
+                display: none;
+            }
+
         }
         .u-input-number{
             border: none;
