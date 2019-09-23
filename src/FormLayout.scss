@@ -13,6 +13,9 @@
             border-color: #d5d6d9;
         }
 
+        .u-select-selection--single .u-select-selection-selected-value{
+            padding-left: 12px;
+        }
         .u-label {
             display: inline-block;
             width: 140px;
@@ -25,6 +28,7 @@
             width: calc(100% - 140px);
             display: inline-block;
             height: 32px;
+            font-size: 13px;
         }
 
         .container-refer {
@@ -167,6 +171,13 @@
 
     &.disabled {
         pointer-events: none;
+
+        .ac-form-layout-mast{
+            display: none;
+        }
+        .u-label:after{
+            content: " :"
+        }
         .ac-form-layout-item-error-msg{
             display: none;
         }
@@ -236,6 +247,9 @@
             .u-input-group-addon{
                 display: none;
             }
+        }
+        .ac-split-area{
+            pointer-events: auto;
         }
     }
 }
