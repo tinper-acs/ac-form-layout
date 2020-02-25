@@ -12,6 +12,22 @@
         .u-input-number {
             border-color: #d5d6d9;
         }
+        input.u-form-control:hover,.u-select-enabled .u-select-selection:hover,.u-input-number:hover{
+            border-color: #8cc6ff;
+        }
+        input.u-form-control:active,.u-select .u-select-selection:active,.u-input-number:active,
+        input.u-form-control:focus,.u-select .u-select-selection:focus,.u-input-number:focus{
+            border-color: #007ace;
+        }
+        .u-select .u-select-arrow,.datepicker-container .u-input-group-btn{
+            color: #adb4bc;
+        }
+        .u-select .u-select-arrow{
+            right: 20px;
+        }
+        .u-select-selection-placeholder, .u-select-search-field-placeholder{
+            left: 12px;
+        }
 
         .u-select-selection--single .u-select-selection-selected-value{
             padding-left: 12px;
@@ -252,4 +268,11 @@
             pointer-events: auto;
         }
     }
+}
+.ac-form-layout-row > div {
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
