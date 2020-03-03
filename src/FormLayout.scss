@@ -9,7 +9,7 @@
 
         input,
         .u-select .u-select-selection,
-        .u-input-number {
+        .u-input-number,.u-input-number.u-input-group>span:first-child,.u-input-number.u-input-group>span:last-child {
             border-color: #d5d6d9;
         }
         input.u-form-control:hover,.u-select-enabled .u-select-selection:hover,.u-input-number:hover{
@@ -19,11 +19,12 @@
         input.u-form-control:focus,.u-select .u-select-selection:focus,.u-input-number:focus{
             border-color: #007ace;
         }
-        .u-select .u-select-arrow,.datepicker-container .u-input-group-btn{
+        .u-select .u-select-arrow,.datepicker-container .u-input-group-btn,.datepicker-input-group .u-input-group-btn,
+        .u-input-number.u-input-group > span:first-child,.u-input-number.u-input-group > span:last-child{
             color: #adb4bc;
         }
         .u-select .u-select-arrow{
-            right: 20px;
+            right: 6px;
         }
         .u-select-selection-placeholder, .u-select-search-field-placeholder{
             left: 12px;
@@ -46,6 +47,9 @@
             height: 32px;
             font-size: 13px;
         }
+        .ncc-refer-container .refer-wrapper .refer-wrapper-content{
+            height: 32px;
+        }
 
         .container-refer {
 
@@ -64,7 +68,9 @@
 
             .u-form-control,
             .u-input-number,
-            .u-input-number.u-input-group.simple .u-input-group-btn {
+            .u-input-number.u-input-group.simple .u-input-group-btn,
+            .u-select .u-select-selection,
+            .ncc-refer-container .refer-wrapper .refer-wrapper-content {
                 border-color: #f53c32;
             }
 
@@ -73,15 +79,6 @@
                 color: #f53c32;
             }
 
-            .container-refer {
-
-                //mdf参照
-                .ant-search-input-wrapper {
-                    .ant-input {
-                        border-color: #f53c32;
-                    }
-                }
-            }
         }
 
         .datepicker-input-group .u-form-control {
@@ -275,4 +272,42 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+}
+
+//参照样式
+// .referModal{
+//     .fixedDataTableRowLayout_rowWrapper,
+//     .fixedDataTableRowLayout_main,
+//     .fixedDataTableCellGroupLayout_cellGroupWrapper,
+//     .fixedDataTableCellGroupLayout_cellGroup,
+//     .fixedDataTableCellLayout_main,
+//     .fixedDataTableCellLayout_columnResizerContainer,
+//     .fixedDataTableCellLayout_columnResizerKnob,
+//     .fixedDataTableCellLayout_wrap1{
+//         height: 35px!important;
+//     }
+// }
+//参照样式
+.ncc-refer-model.ant-modal.referModal{
+    .columnSetting{
+        background: #eceff5;
+        .SettingBtn,.SettingBtn:hover{
+            background: #eceff5;
+        }
+    }
+    .pagination-new .ant-pagination.mini{
+        text-align: center;
+    }
+    .ant-modal-footer{
+        padding: 7px 20px;
+        .refer-footer-btns-container{
+            button.ant-btn-primary{
+                border: 1px solid #e14c46;
+            }
+            .refer-modal-footer-cancle-btn{
+                margin-left: 8px;
+            }
+        }
+       
+    }
 }

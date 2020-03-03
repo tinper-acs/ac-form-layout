@@ -6,17 +6,18 @@
   margin-bottom: 8px; }
   .ac-form-layout-item input,
   .ac-form-layout-item .u-select .u-select-selection,
-  .ac-form-layout-item .u-input-number {
+  .ac-form-layout-item .u-input-number, .ac-form-layout-item .u-input-number.u-input-group > span:first-child, .ac-form-layout-item .u-input-number.u-input-group > span:last-child {
     border-color: #d5d6d9; }
   .ac-form-layout-item input.u-form-control:hover, .ac-form-layout-item .u-select-enabled .u-select-selection:hover, .ac-form-layout-item .u-input-number:hover {
     border-color: #8cc6ff; }
   .ac-form-layout-item input.u-form-control:active, .ac-form-layout-item .u-select .u-select-selection:active, .ac-form-layout-item .u-input-number:active,
   .ac-form-layout-item input.u-form-control:focus, .ac-form-layout-item .u-select .u-select-selection:focus, .ac-form-layout-item .u-input-number:focus {
     border-color: #007ace; }
-  .ac-form-layout-item .u-select .u-select-arrow, .ac-form-layout-item .datepicker-container .u-input-group-btn {
+  .ac-form-layout-item .u-select .u-select-arrow, .ac-form-layout-item .datepicker-container .u-input-group-btn, .ac-form-layout-item .datepicker-input-group .u-input-group-btn,
+  .ac-form-layout-item .u-input-number.u-input-group > span:first-child, .ac-form-layout-item .u-input-number.u-input-group > span:last-child {
     color: #adb4bc; }
   .ac-form-layout-item .u-select .u-select-arrow {
-    right: 20px; }
+    right: 6px; }
   .ac-form-layout-item .u-select-selection-placeholder, .ac-form-layout-item .u-select-search-field-placeholder {
     left: 12px; }
   .ac-form-layout-item .u-select-selection--single .u-select-selection-selected-value {
@@ -32,6 +33,8 @@
     display: inline-block;
     height: 32px;
     font-size: 13px; }
+  .ac-form-layout-item .ncc-refer-container .refer-wrapper .refer-wrapper-content {
+    height: 32px; }
   .ac-form-layout-item .container-refer .ant-search-input-wrapper {
     vertical-align: middle;
     height: 32px; }
@@ -39,13 +42,13 @@
       border: 1px solid #d5d6d9; }
   .ac-form-layout-item.error .u-form-control,
   .ac-form-layout-item.error .u-input-number,
-  .ac-form-layout-item.error .u-input-number.u-input-group.simple .u-input-group-btn {
+  .ac-form-layout-item.error .u-input-number.u-input-group.simple .u-input-group-btn,
+  .ac-form-layout-item.error .u-select .u-select-selection,
+  .ac-form-layout-item.error .ncc-refer-container .refer-wrapper .refer-wrapper-content {
     border-color: #f53c32; }
   .ac-form-layout-item.error .u-input-number.u-input-group.simple .u-input-group-btn .icon-group .plus,
   .ac-form-layout-item.error .u-input-number.u-input-group.simple .u-input-group-btn .icon-group .reduce {
     color: #f53c32; }
-  .ac-form-layout-item.error .container-refer .ant-search-input-wrapper .ant-input {
-    border-color: #f53c32; }
   .ac-form-layout-item .datepicker-input-group .u-form-control {
     float: unset; }
   .ac-form-layout-item .ref-input-wrap {
@@ -169,3 +172,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start; }
+
+.ncc-refer-model.ant-modal.referModal .columnSetting {
+  background: #eceff5; }
+  .ncc-refer-model.ant-modal.referModal .columnSetting .SettingBtn, .ncc-refer-model.ant-modal.referModal .columnSetting .SettingBtn:hover {
+    background: #eceff5; }
+
+.ncc-refer-model.ant-modal.referModal .pagination-new .ant-pagination.mini {
+  text-align: center; }
+
+.ncc-refer-model.ant-modal.referModal .ant-modal-footer {
+  padding: 7px 20px; }
+  .ncc-refer-model.ant-modal.referModal .ant-modal-footer .refer-footer-btns-container button.ant-btn-primary {
+    border: 1px solid #e14c46; }
+  .ncc-refer-model.ant-modal.referModal .ant-modal-footer .refer-footer-btns-container .refer-modal-footer-cancle-btn {
+    margin-left: 8px; }
