@@ -172,18 +172,3 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start; }
-
-.ncc-refer-model.ant-modal.referModal .columnSetting {
-  background: #eceff5; }
-  .ncc-refer-model.ant-modal.referModal .columnSetting .SettingBtn, .ncc-refer-model.ant-modal.referModal .columnSetting .SettingBtn:hover {
-    background: #eceff5; }
-
-.ncc-refer-model.ant-modal.referModal .pagination-new .ant-pagination.mini {
-  text-align: center; }
-
-.ncc-refer-model.ant-modal.referModal .ant-modal-footer {
-  padding: 7px 20px; }
-  .ncc-refer-model.ant-modal.referModal .ant-modal-footer .refer-footer-btns-container button.ant-btn-primary {
-    border: 1px solid #e14c46; }
-  .ncc-refer-model.ant-modal.referModal .ant-modal-footer .refer-footer-btns-container .refer-modal-footer-cancle-btn {
-    margin-left: 8px; }
