@@ -83,7 +83,9 @@
       padding: 5px 10px;
       border-radius: 4px;
       background: #fff;
-      box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3); }
+      box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+      top: 5px;
+      position: relative; }
   .ac-form-layout-item-error-msg::after {
     position: absolute;
     display: block;
@@ -94,7 +96,8 @@
     left: calc(50% - 5px);
     transform: rotate(45deg);
     border-right: 1px solid #d5d6d9;
-    border-bottom: 1px solid #d5d6d9; }
+    border-bottom: 1px solid #d5d6d9;
+    bottom: 0; }
   .ac-form-layout-item .u-form-control[disabled] {
     background: #f3f3f3;
     border-color: #e0e0e0;
