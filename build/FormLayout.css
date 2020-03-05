@@ -14,7 +14,8 @@
   .ac-form-layout-item input.u-form-control:focus, .ac-form-layout-item .u-select .u-select-selection:focus, .ac-form-layout-item .u-input-number:focus {
     border-color: #007ace; }
   .ac-form-layout-item .u-select .u-select-arrow, .ac-form-layout-item .datepicker-container .u-input-group-btn, .ac-form-layout-item .datepicker-input-group .u-input-group-btn,
-  .ac-form-layout-item .u-input-number.u-input-group > span:first-child, .ac-form-layout-item .u-input-number.u-input-group > span:last-child {
+  .ac-form-layout-item .u-input-number.u-input-group > span:first-child, .ac-form-layout-item .u-input-number.u-input-group > span:last-child,
+  .ac-form-layout-item .u-input-group.simple .u-input-group-btn {
     color: #adb4bc; }
   .ac-form-layout-item .u-select .u-select-arrow {
     right: 6px; }
