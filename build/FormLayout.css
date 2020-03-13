@@ -4,6 +4,8 @@
 .ac-form-layout-item {
   padding: 0;
   margin-bottom: 8px; }
+  .ac-form-layout-item .u-form-control {
+    padding: 0 8px; }
   .ac-form-layout-item input,
   .ac-form-layout-item .u-select .u-select-selection,
   .ac-form-layout-item .u-input-number, .ac-form-layout-item .u-input-number.u-input-group > span:first-child, .ac-form-layout-item .u-input-number.u-input-group > span:last-child {
@@ -17,12 +19,12 @@
   .ac-form-layout-item .u-input-number.u-input-group > span:first-child, .ac-form-layout-item .u-input-number.u-input-group > span:last-child,
   .ac-form-layout-item .u-input-group.simple .u-input-group-btn {
     color: #adb4bc; }
-  .ac-form-layout-item .u-select .u-select-arrow {
-    right: 6px; }
+  .ac-form-layout-item .u-select .u-select-arrow, .ac-form-layout-item .u-input-group.simple .u-input-group-btn {
+    right: 8px; }
   .ac-form-layout-item .u-select-selection-placeholder, .ac-form-layout-item .u-select-search-field-placeholder {
-    left: 12px; }
+    left: 8px; }
   .ac-form-layout-item .u-select-selection--single .u-select-selection-selected-value {
-    padding-left: 12px; }
+    padding-left: 8px; }
   .ac-form-layout-item .u-label {
     display: inline-block;
     width: 140px;

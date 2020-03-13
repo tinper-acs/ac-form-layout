@@ -6,7 +6,9 @@
     &-item {
         padding: 0;
         margin-bottom: 8px;
-
+        .u-form-control{
+            padding: 0 8px;
+        }
         input,
         .u-select .u-select-selection,
         .u-input-number,.u-input-number.u-input-group>span:first-child,.u-input-number.u-input-group>span:last-child {
@@ -24,15 +26,15 @@
         .u-input-group.simple .u-input-group-btn{
             color: #adb4bc;
         }
-        .u-select .u-select-arrow{
-            right: 6px;
+        .u-select .u-select-arrow,.u-input-group.simple .u-input-group-btn{
+            right: 8px;
         }
         .u-select-selection-placeholder, .u-select-search-field-placeholder{
-            left: 12px;
+            left: 8px;
         }
 
         .u-select-selection--single .u-select-selection-selected-value{
-            padding-left: 12px;
+            padding-left: 8px;
         }
         .u-label {
             display: inline-block;
