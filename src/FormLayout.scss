@@ -9,6 +9,10 @@
         .u-form-control{
             padding: 0 8px;
         }
+        .u-select .u-select-selection-rendered{
+            margin-left: 0;
+            margin-right: 0;
+        }
         input,
         .u-select .u-select-selection,
         .u-input-number,.u-input-number.u-input-group>span:first-child,.u-input-number.u-input-group>span:last-child {
@@ -63,6 +67,7 @@
 
                 .ant-input {
                     border: 1px solid #d5d6d9;
+                    padding: 0 7px;
                 }
             }
         }

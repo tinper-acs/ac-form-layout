@@ -6,6 +6,9 @@
   margin-bottom: 8px; }
   .ac-form-layout-item .u-form-control {
     padding: 0 8px; }
+  .ac-form-layout-item .u-select .u-select-selection-rendered {
+    margin-left: 0;
+    margin-right: 0; }
   .ac-form-layout-item input,
   .ac-form-layout-item .u-select .u-select-selection,
   .ac-form-layout-item .u-input-number, .ac-form-layout-item .u-input-number.u-input-group > span:first-child, .ac-form-layout-item .u-input-number.u-input-group > span:last-child {
@@ -42,7 +45,8 @@
     vertical-align: middle;
     height: 32px; }
     .ac-form-layout-item .container-refer .ant-search-input-wrapper .ant-input {
-      border: 1px solid #d5d6d9; }
+      border: 1px solid #d5d6d9;
+      padding: 0 7px; }
   .ac-form-layout-item.error .u-form-control,
   .ac-form-layout-item.error .u-input-number,
   .ac-form-layout-item.error .u-input-number.u-input-group.simple .u-input-group-btn,
