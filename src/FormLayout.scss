@@ -18,11 +18,11 @@
         .u-input-number,.u-input-number.u-input-group>span:first-child,.u-input-number.u-input-group>span:last-child {
             border-color: #d5d6d9;
         }
-        input.u-form-control:hover,.u-select-enabled .u-select-selection:hover,.u-input-number:hover{
+        .u-form-control:hover,.u-select-enabled .u-select-selection:hover,.u-input-number:hover{
             border-color: #8cc6ff;
         }
-        input.u-form-control:active,.u-select .u-select-selection:active,.u-input-number:active,
-        input.u-form-control:focus,.u-select .u-select-selection:focus,.u-input-number:focus{
+        .u-form-control:active,.u-select .u-select-selection:active,.u-input-number:active,
+        .u-form-control:focus,.u-select .u-select-selection:focus,.u-input-number:focus{
             border-color: #007ace;
         }
         .u-select .u-select-arrow,.datepicker-container .u-input-group-btn,.datepicker-input-group .u-input-group-btn,
