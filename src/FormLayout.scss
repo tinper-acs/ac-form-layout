@@ -54,6 +54,14 @@
             height: 32px;
             font-size: 13px;
         }
+        .ac-form-layout-span{
+            line-height: 32px;
+            color: #111111;
+            padding: 0 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
         .ncc-refer-container .refer-wrapper .refer-wrapper-content{
             height: 32px;
         }
