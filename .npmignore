@@ -27,7 +27,7 @@ spm_modules
 .cache
 coverage
 demo
-docs
+docs`
 test
 dist
 .npmignore

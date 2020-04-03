@@ -61,6 +61,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+            pointer-events: painted;
         }
         .ncc-refer-container .refer-wrapper .refer-wrapper-content{
             height: 32px;

@@ -45,7 +45,8 @@
     padding: 0 8px;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap; }
+    white-space: nowrap;
+    pointer-events: painted; }
   .ac-form-layout-item .ncc-refer-container .refer-wrapper .refer-wrapper-content {
     height: 32px; }
   .ac-form-layout-item .container-refer .ant-search-input-wrapper {
