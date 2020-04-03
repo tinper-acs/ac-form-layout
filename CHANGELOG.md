@@ -1,3 +1,13 @@
+<a name="0.1.11"></a>
+## [0.1.11](https://github.com/tinper-bee/ac-form-layout/compare/v0.1.10...v0.1.11) (2020-04-03)
+
+
+### Features
+
+* **ac-form-layout:** 新增FormItemSpan纯展示文字组件 ([baa3e6d](https://github.com/tinper-bee/ac-form-layout/commit/baa3e6d))
+
+
+
 <a name="0.1.10"></a>
 ## [0.1.10](https://github.com/tinper-bee/ac-form-layout/compare/v0.1.9...v0.1.10) (2020-03-26)
 
