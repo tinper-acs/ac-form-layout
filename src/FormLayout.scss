@@ -5,7 +5,7 @@
 
     &-item {
         padding: 0;
-        margin-bottom: 8px;
+        margin-bottom: 14px;
         .u-form-control{
             padding: 0 8px;
         }
@@ -135,40 +135,10 @@
 
         &-error-msg {
             color: #f53c32;
-            position: absolute;
-            z-index: 2;
-            top: -30px;
-            width: 100%;
-            text-align: center;
-            overflow: hidden;
-            display: block;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            height: 30px;
-            pointer-events: none;
-
             &-text {
-                padding: 3px 10px;
-                border-radius: 4px;
-                background: #fff;
-                box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-                top: 6px;
+                top: -2px;
                 position: relative;
             }
-        }
-
-        &-error-msg::after {
-            position: absolute;
-            display: block;
-            width: 6px;
-            height: 6px;
-            background: #fff;
-            content: " ";
-            left: calc(50% - 5px);
-            transform: rotate(45deg);
-            border-right: 1px solid #d5d6d9;
-            border-bottom: 1px solid #d5d6d9;
-            bottom: -1px;
         }
 
 
