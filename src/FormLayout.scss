@@ -1,3 +1,4 @@
+$font-size: 12px;
 .ac-form-layout {
     &-row {
         margin: 0
@@ -47,7 +48,7 @@
             display: inline-block;
             width: 140px;
             text-align: right;
-            font-size: 13px;
+            font-size: $font-size;;
             color: #111111;
         }
 
@@ -55,7 +56,7 @@
             width: calc(100% - 215px);
             display: inline-block;
             height: 32px;
-            font-size: 13px;
+            font-size: $font-size;;
         }
         .ac-form-layout-span{
             line-height: 32px;
@@ -160,13 +161,13 @@
 
         input::-webkit-input-placeholder {
             color: #cccccc !important;
-            font-size: 13px;
+            font-size: $font-size;;
         }
 
         .u-select-selection-placeholder,
         .u-select-search-field-placeholder {
             color: #cccccc;
-            font-size: 13px;
+            font-size: $font-size;;
         }
     }
 
