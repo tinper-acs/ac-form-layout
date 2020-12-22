@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/tinper-bee/ac-form-layout/compare/v1.0.4...v1.0.5) (2020-12-22)
+
+
+### Bug Fixes
+
+* 修正require为true，输入值为空时的报错 ([ee1cb6f](https://github.com/tinper-bee/ac-form-layout/commit/ee1cb6fa3c4a9699309d8cb169cf2ece210004b9))
+
+
+
 <a name="0.1.12"></a>
 ## [0.1.12](https://github.com/tinper-bee/ac-form-layout/compare/v0.1.11...v0.1.12) (2020-04-03)
 
