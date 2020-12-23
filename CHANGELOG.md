@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/tinper-bee/ac-form-layout/compare/v1.0.5...v1.0.6) (2020-12-23)
+
+
+### Bug Fixes
+
+* 修正提示信息位置在输入框之上 ([e43c789](https://github.com/tinper-bee/ac-form-layout/commit/e43c78980480357cd769e2af1b10ffc0119b67b3))
+
+
+
 ## [1.0.5](https://github.com/tinper-bee/ac-form-layout/compare/v1.0.4...v1.0.5) (2020-12-22)
 
 
