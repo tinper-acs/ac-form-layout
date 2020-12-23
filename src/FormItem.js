@@ -31,22 +31,21 @@ class FormItem extends Component {
             React.Children.map(children,child=>{
                 ary.push(
                         <div className={`${clsfix}-item-out`} title={errorMsg}>
-                            {child}
                             {errorMsg &&
                             <span className={`${clsfix}-item-error-msg`}>
                                 <span className={`${clsfix}-item-error-msg-text`}>{errorMsg}</span>
-                            </span>
-                        }
+                            </span>}
+                            {child}
                         </div>
                 )
             })
         }else{
             ary.push(
                     <div className={`${clsfix}-item-out`} title={errorMsg}>
-                        {children}
                         { errorMsg && <span className={`${clsfix}-item-error-msg`}>
                             <span className={`${clsfix}-item-error-msg-text`}>{errorMsg}</span>
                         </span>}
+                        {children}
                     </div>
             )
         }
