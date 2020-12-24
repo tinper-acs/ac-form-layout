@@ -71,10 +71,10 @@ var FormItem = function (_Component) {
             ));
             if (children.length > 1) {
                 _react2["default"].Children.map(children, function (child) {
-                    errorMsg ? ary.push(_react2["default"].createElement(
+                    ary.push(_react2["default"].createElement(
                         'div',
                         { className: clsfix + '-item-out', title: errorMsg },
-                        _react2["default"].createElement(
+                        errorMsg && _react2["default"].createElement(
                             'span',
                             { className: clsfix + '-item-error-msg' },
                             _react2["default"].createElement(
@@ -84,13 +84,13 @@ var FormItem = function (_Component) {
                             )
                         ),
                         child
-                    )) : ary.push(child);
+                    ));
                 });
             } else {
-                errorMsg ? ary.push(_react2["default"].createElement(
+                ary.push(_react2["default"].createElement(
                     'div',
                     { className: clsfix + '-item-out', title: errorMsg },
-                    _react2["default"].createElement(
+                    errorMsg && _react2["default"].createElement(
                         'span',
                         { className: clsfix + '-item-error-msg' },
                         _react2["default"].createElement(
@@ -100,7 +100,7 @@ var FormItem = function (_Component) {
                         )
                     ),
                     children
-                )) : ary.push(children);
+                ));
             }
             return ary;
         };
