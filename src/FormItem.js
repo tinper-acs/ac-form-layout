@@ -29,24 +29,24 @@ class FormItem extends Component {
         ary.push(<Lable>{required?<span className={`${clsfix}-mast`}>*</span>:''}{label}</Lable>)
         if(children.length>1){
             React.Children.map(children,child=>{
-                errorMsg?ary.push(
+                ary.push(
                         <div className={`${clsfix}-item-out`} title={errorMsg}>
-                            <span className={`${clsfix}-item-error-msg`}>
+                            {errorMsg && <span className={`${clsfix}-item-error-msg`}>
                                 <span className={`${clsfix}-item-error-msg-text`}>{errorMsg}</span>
-                            </span>
+                            </span>}
                             {child}
                         </div>
-                ):ary.push(child)
+                )
             })
         }else{
-            errorMsg?ary.push(
+            ary.push(
                     <div className={`${clsfix}-item-out`} title={errorMsg}>
-                        <span className={`${clsfix}-item-error-msg`}>
+                        {errorMsg && <span className={`${clsfix}-item-error-msg`}>
                             <span className={`${clsfix}-item-error-msg-text`}>{errorMsg}</span>
-                        </span>
+                        </span>}
                         {children}
                     </div>
-            ):ary.push(children)
+            )
         }
         return ary;
     }
